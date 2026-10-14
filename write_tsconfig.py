@@ -1,0 +1,26 @@
+﻿tsconfig = r"""{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
+"""
+
+with open(r'D:\CreatorHub\frontend\tsconfig.json', 'w', encoding='utf-8') as f:
+    f.write(tsconfig.strip())
+
+print("Wrote tsconfig.json successfully!")

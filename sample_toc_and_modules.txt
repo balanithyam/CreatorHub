@@ -1,0 +1,177 @@
+Page 1: STORE MANAGEMENT SYSTEM  | 23CS54C – MODERN WEB TECHNOLOGIES 
+Page 2: 1  | NATIONAL ENGINEERING COLLEGE 
+Page 3: 2  |  
+   -> TABLE OF CONTENTS 
+   -> 5 TABLE STRUCTURES .......................................................................................... 7 
+Page 4: 3  | CHAPTER 1 
+   -> CHAPTER 1 
+Page 5: 4  | CHAPTER 2 
+   -> CHAPTER 2 
+Page 6: 5  | CHAPTER 3 
+   -> CHAPTER 3 
+   -> 1. Master Data Management 
+Page 7: 6  | CHAPTER 4 
+   -> CHAPTER 4 
+Page 8: 7  | CHAPTER 5 
+   -> CHAPTER 5 
+   -> TABLE STRUCTURES 
+Page 9: 8  | States : 
+Page 10: 9  | Purchase_Type : 
+Page 11: 10  | Party_master : 
+Page 12: 11  | Purchase_order_details : 
+Page 13: 12  | Gate_inward : 
+Page 14: 13  | Receipts 
+Page 15: 14  | Bill_entry_details : 
+Page 16: 15  | Bill_entries : 
+Page 17: 16  | CHAPTER 6 
+   -> CHAPTER 6 
+   -> ADDITIONAL MASTER TABLES 
+Page 18: 17  |  
+Page 19: 18  | CHAPTER 7 
+   -> CHAPTER 7 
+   -> 7.1 TECH STACK 
+Page 20: 19  | CHAPTER 8 
+   -> CHAPTER 8 
+   -> 8.0 Design Approach 
+   -> 1. Functional requirements What must the module do? Section x.1 
+Page 21: 20  | Quantity Estimate Basis 
+Page 22: 21  | 8.1 FOLDER STRUCTURE 
+   -> 8.1 FOLDER STRUCTURE 
+   -> Fig 8.1.1 Highlevel view of project 
+   -> 8.1.1 BACKEND FOLDER 
+   -> Fig 8.1.2 – Backend Folder Structure – Overall organization of backend files and directories showing modular 
+   -> Fig 8.1.3 config Folder structure 
+Page 23: 22  |  
+   -> Fig 8.1.4 Controller Folder 
+Page 24: 23  |  
+Page 25: 24  | 8.1.2 FRONTEND FOLDER 
+   -> 8.1.2 FRONTEND FOLDER 
+   -> FIG 8.1.7 Structure of Frontend Folder 
+   -> Fig 8.1.8 Structure of frontend/src 
+Page 26: 25  |  
+   -> Fig 8.1.9 Structure of frontend/src/pages Folder 
+   -> Fig 8.1.10 Structure of frontend/src/routes and frontend/src/services 
+Page 27: 26  |  
+   -> Fig 8.1.11 Structure of frontend/src/components 
+Page 28: 27  | 8.2 USER AUTHENTICATION & ACCESS CONTROL 
+   -> 8.2 USER AUTHENTICATION & ACCESS CONTROL 
+   -> 8.2.0 Purpose & Scope 
+   -> 8.2.1 Functional Requirements 
+Page 29: 28  | Concern Choice Why it fits this module 
+Page 30: 29  | 8.2.5 Low-Level Architecture 
+   -> 8.2.5 Low-Level Architecture 
+   -> Fig 8.2.A Low-level architecture – USER AUTHENTICATION & ACCESS CONTROL 
+Page 31: 30  | Method Endpoint Purpose / contract 
+   -> 8.2.7 DB Design 
+Page 32: 31  | 8.3 MASTER DATA MANAGEMENT 
+   -> 8.3 MASTER DATA MANAGEMENT 
+   -> 8.3.0 Purpose & Scope 
+   -> 8.3.1 Functional Requirements 
+Page 33: 32  | 8.3.3 Tech Stack 
+   -> 8.3.3 Tech Stack 
+Page 34: 33  | 8.3.5 Low-Level Architecture 
+   -> 8.3.5 Low-Level Architecture 
+   -> Fig 8.3.A Low-level architecture – MASTER DATA MANAGEMENT 
+Page 35: 34  | 8.3.6 API Design 
+   -> 8.3.6 API Design 
+   -> routes derived from the controller methods in Chapter 4. 
+Page 36: 35  | • Recommended extra index (not yet in the schema): an index on Item(DepartmentId, 
+   -> 8.3.8 Screenshots 
+   -> fig 8.3.1 Department master list 
+Page 37: 36  | The user enters a department name and selects Add Department to create a new record. The 
+   -> fig 8.3.4 Supplier master list 
+Page 38: 37  |  
+   -> fig 8.3.6 New supplier entry 
+   -> fig 8.3.7 Item master list 
+Page 39: 38  |  
+   -> fig 8.3.8 Filtering items by sub head 
+   -> fig 8.3.9 Filtering items by department 
+Page 40: 39  |  
+   -> fig 8.3.10 New item entry 
+   -> fig 8.3.11 Purchase type master list 
+Page 41: 40  |  
+   -> fig 8.3.12 Adding a purchase type 
+   -> fig 8.3.13 Unit of measurement master list 
+Page 42: 41  |  
+   -> fig 8.3.14 Adding a unit of measurement 
+   -> fig 8.3.15 State master list 
+Page 43: 42  | 8.4 PURCHASE ORDER (PO) MANAGEMENT 
+   -> 8.4 PURCHASE ORDER (PO) MANAGEMENT 
+   -> 8.4.0 Purpose & Scope 
+   -> 8.4.1 Functional Requirements 
+Page 44: 43  | • CAP: consistency first – the status of a PO must be identical for the store, accounts and 
+   -> 8.4.3 Tech Stack 
+Page 45: 44  | 8.4.5 Low-Level Architecture 
+   -> 8.4.5 Low-Level Architecture 
+   -> Fig 8.4.A Low-level architecture – PURCHASE ORDER (PO) MANAGEMENT 
+Page 46: 45  | Method Endpoint Purpose / contract 
+Page 47: 46  | Purchase orders are displayed with supplier details, status, item count, and total value, together 
+   -> fig 8.4.2 Creating a purchase order 
+Page 48: 47  |  
+   -> fig 8.4.4 Purchase order financial summary 
+   -> fig 8.4.5 Expanded purchase order details 
+Page 49: 48  | 8.5 GOODS INWARD & INVENTORY RECEIPT (GRN) 
+   -> 8.5 GOODS INWARD & INVENTORY RECEIPT (GRN) 
+   -> 8.5.0 Purpose & Scope 
+   -> 8.5.1 Functional Requirements 
+Page 50: 49  | 8.5.3 Tech Stack 
+   -> 8.5.3 Tech Stack 
+Page 51: 50  | 8.5.5 Low-Level Architecture 
+   -> 8.5.5 Low-Level Architecture 
+   -> Fig 8.5.A Low-level architecture – GOODS INWARD & INVENTORY RECEIPT (GRN) 
+Page 52: 51  | Method Endpoint Purpose / contract 
+Page 53: 52  | 8.5.8 Screenshots 
+   -> 8.5.8 Screenshots 
+   -> fig 8.5.1 Gate inward list 
+   -> fig 8.5.2 Selecting a supplier for gate inward 
+Page 54: 53  |  
+   -> fig 8.5.3 Linking gate inward to a purchase order 
+   -> fig 8.5.4 Goods receipt register 
+Page 55: 54  | The receipt form links a supplier and purchase order, captures invoice information, and allows 
+   -> fig 8.5.6 Goods receipt financial summary 
+Page 56: 55  |  
+   -> fig 8.5.8 Expanded goods receipt details 
+Page 57: 56  | 8.6 BILL ENTRY 
+   -> 8.6 BILL ENTRY 
+   -> 8.6.0 Purpose & Scope 
+   -> 8.6.1 Functional Requirements 
+Page 58: 57  | Concern Choice Why it fits this module 
+Page 59: 58  | 8.6.5 Low-Level Architecture 
+   -> 8.6.5 Low-Level Architecture 
+   -> Fig 8.6.A Low-level architecture – BILL ENTRY 
+Page 60: 59  | Method Endpoint Purpose / contract 
+Page 61: 60  | 8.6.8 Screenshots 
+   -> 8.6.8 Screenshots 
+   -> fig 8.6.1 Bill entry register 
+   -> fig 8.6.2 Creating a supplier bill entry 
+Page 62: 61  |  
+   -> fig 8.6.3 Bill entry financial breakdown 
+   -> fig 8.6.4 Expanded bill entry details 
+Page 63: 62  | 8.7 MATERIAL REQUISITION & GATE PASS MOVEMENT 
+   -> 8.7 MATERIAL REQUISITION & GATE PASS MOVEMENT 
+   -> 8.7.0 Purpose & Scope 
+   -> 8.7.1 Functional Requirements 
+Page 64: 63  | Concern Choice Why it fits this module 
+   -> 8.7.4 Back-of-the-Envelope Estimation 
+Page 65: 64  | 8.7.5 Low-Level Architecture 
+   -> 8.7.5 Low-Level Architecture 
+   -> Fig 8.7.A Low-level architecture – MATERIAL REQUISITION & GATE PASS MOVEMENT 
+Page 66: 65  | Method Endpoint Purpose / contract 
+Page 67: 66  | The outward gate pass form records pass details and destination information and allows items 
+   -> fig 8.7.2 Editing a gate pass outward 
+Page 68: 67  | 8.8 EXECUTIVE DASHBOARD & BUSINESS ANALYTICS 
+   -> 8.8 EXECUTIVE DASHBOARD & BUSINESS ANALYTICS 
+   -> 8.8.0 Purpose & Scope 
+   -> 8.8.1 Functional Requirements 
+Page 69: 68  | 8.8.3 Tech Stack 
+   -> 8.8.3 Tech Stack 
+Page 70: 69  | 8.8.5 Low-Level Architecture 
+   -> 8.8.5 Low-Level Architecture 
+   -> Fig 8.8.A Low-level architecture – EXECUTIVE DASHBOARD & BUSINESS ANALYTICS 
+Page 71: 70  | Method Endpoint Purpose / contract 
+   -> 8.8.7 DB Design 
+Page 72: 71  |  
+   -> fig 8.8.2 Department wise issue report 
+   -> fig 8.8.3 Date wise order report 
+Page 73: 72  | CHAPTER 9 
+   -> CHAPTER 9 

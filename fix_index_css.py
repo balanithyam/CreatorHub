@@ -1,0 +1,56 @@
+﻿css_content = """@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FAF8F5;
+    color: #121316;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+}
+
+.brutal-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.brutal-btn:hover {
+  transform: translateY(-2px);
+}
+
+.brutal-card {
+  background-color: #ffffff;
+  border: 1px solid #E4DFD7;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 20px -2px rgba(18, 19, 22, 0.05);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D5CEBF;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #121316;
+}
+"""
+
+with open(r'D:\CreatorHub\frontend\src\index.css', 'w', encoding='utf-8') as f:
+    f.write(css_content.strip())
+
+print("Fixed index.css successfully!")
